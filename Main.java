@@ -1,15 +1,15 @@
-public class Main {
+public class main {
 
     public static void main(String[] args) {
 
-        int StartingScore = 100; // начальный счет данные входа
-        int Replenishment = 100; // сумма пополнения
-        int Bonus = 0; // сумма бонусов
-        if (Replenishment > 1000) {
-            Bonus = Replenishment / 100;
+        int startingScore = 100; // начальный счет данные входа
+        int replenishment = 100; // сумма пополнения
+        int bonus = 0; // сумма бонусов
+        if (replenishment > 1000) {
+            bonus = replenishment / 100;
         } else {
-            Bonus = 0;
+            bonus = 0;
         }
-        System.out.println("Итоговый счет: "StartingScore + Replenishment + Bonus);
+        system.out.println("Итоговый счет: "startingScore + replenishment + bonus);
     }
 }
