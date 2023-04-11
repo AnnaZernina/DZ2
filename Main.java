@@ -1,4 +1,4 @@
-public class main {
+public class Main {
 
     public static void main(String[] args) {
 
@@ -10,6 +10,6 @@ public class main {
         } else {
             bonus = 0;
         }
-        system.out.println("Итоговый счет: "startingScore + replenishment + bonus);
+        System.out.println("Итоговый счет: "startingScore + replenishment + bonus);
     }
 }
